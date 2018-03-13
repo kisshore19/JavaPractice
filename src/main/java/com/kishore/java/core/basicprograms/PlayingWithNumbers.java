@@ -11,9 +11,11 @@ public class PlayingWithNumbers {
 
 		PlayingWithNumbers numbers = new PlayingWithNumbers();
 		// System.out.println("This is number prime or not  : " +
-		// numbers.primeNumberOrNot(997));
-		// System.out.println(numbers.findTheFactorialOfTheNumber(7));
+		numbers.primeNumberOrNot(997);
+		System.out.println(numbers.findTheFactorialOfTheNumber(7));
 		numbers.isAmstrongNumber(153);
+		numbers.fibonicSerier(10);
+		numbers.isPallindrom(1521);
 	}
 
 	public boolean isEvenNuber(int input) {
